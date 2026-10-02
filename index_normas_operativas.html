@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Acceso directo a las Normas Operativas de FUESMEN">
+  <title>FUESMEN | Normas Operativas</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #eef5f9 0%, #f8fafb 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #333;
+    }
+
+    .wrapper {
+      width: 100%;
+      max-width: 460px;
+      padding: 20px;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 42px 38px 34px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.10);
+      text-align: center;
+      border-top: 5px solid #1682b8;
+    }
+
+    .logo {
+      font-size: 34px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      color: #1682b8;
+      margin-bottom: 6px;
+    }
+
+    .institution {
+      font-size: 13px;
+      color: #777;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 24px;
+      font-weight: 500;
+      color: #333;
+    }
+
+    .subtitle {
+      margin: 12px 0 30px;
+      font-size: 14px;
+      line-height: 1.5;
+      color: #777;
+    }
+
+    .access-button {
+      display: block;
+      width: 100%;
+      padding: 14px 18px;
+      border-radius: 6px;
+      background: #1682b8;
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 600;
+      transition: background .2s, transform .1s;
+    }
+
+    .access-button:hover {
+      background: #116d9a;
+    }
+
+    .access-button:active {
+      transform: translateY(1px);
+    }
+
+    .info {
+      margin-top: 24px;
+      padding-top: 18px;
+      border-top: 1px solid #e8e8e8;
+      font-size: 12px;
+      line-height: 1.5;
+      color: #888;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 14px;
+      font-size: 11px;
+      color: #999;
+    }
+
+    @media (max-width: 480px) {
+      .card {
+        padding: 34px 24px 28px;
+      }
+
+      h1 {
+        font-size: 21px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="wrapper">
+    <section class="card">
+      <div class="logo">FUESMEN</div>
+      <div class="institution">Fundación Escuela de Medicina Nuclear</div>
+
+      <h1>Normas Operativas</h1>
+
+      <p class="subtitle">
+        Acceso directo a la documentación de Normas Operativas
+        de la intranet institucional.
+      </p>
+
+      <a
+        class="access-button"
+        href="https://intranet.fuesmen.edu.ar/wp-login.php?redirect_to=%2Fsg%2Fdoc%2Fnormas-operativas%2F">
+        INGRESAR
+      </a>
+
+      <div class="info">
+        El acceso se realiza mediante el sistema oficial de autenticación
+        de FUESMEN. Si ya tenés una sesión iniciada, serás dirigido
+        directamente a Normas Operativas.
+      </div>
+    </section>
+
+    <div class="footer">
+      Acceso institucional · FUESMEN
+    </div>
+  </main>
+</body>
+</html>
